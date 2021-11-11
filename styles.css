@@ -53,8 +53,9 @@ p {
 
 .text-box {
     text-align: center;
-    margin: 10% 25%;
     background-color: #fff;
+    width: 75%;
+    margin: auto;
     border-radius: 25px;
     padding: 20px;
     box-shadow: 4px 4px 0px #F8A4D8;
@@ -62,3 +63,14 @@ p {
 
 footer {
     text-align: center;
+    margin: 20px;
+}
+
+.flex2 img {
+    margin: 20px auto;
+    width: 40%;
+}
+
+.flex2 {
+    text-align: center;
+}
