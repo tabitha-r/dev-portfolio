@@ -1,30 +1,131 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Tabitha Riley - Full-Stack Engineer | Portfolio</title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=News+Cycle&family=Spartan:wght@300;400;700&display=swap" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head lang="en-GB">
+        <title>Tabitha Riley | Full-Stack Engineer</title>
         <meta name="author" content="Tabitha Riley">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="web design, web development, digital marketing, lytham, blackpool, fylde">
+        <meta name="description" content="A Full-Stack engineer based in the Fylde, Lancashire. Specialising in HTML, CSS, JavaScript, and PHP.">
+        <link rel="stylesheet" href="./resources/css/main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link href="https://fonts.googleapis.com/css2?family=News+Cycle&amp;family=Spartan:wght@300;400;700&amp;display=swap" rel="stylesheet">
+        <link rel="shortcut icon" type="image/png" href="https://www.tabithariley.digital/portfolio-popup/TR%20Logo.png"/>
+        <script src="https://kit.fontawesome.com/5aa926766e.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class="flex">
-            <img src="https://tabitha-r.github.io/portfolio-popup/TR%20Logo.png">
-            <h1>Tabitha Riley</h1>
-            <h2>Digital Solutions</h2>
-        </div>
-        <div class="flex2">
-            <img src="./undraw_designer_life_re_6ywf.svg">
-            <div class="text-box">
-                <h2>Coming Soon</h2>
-                <p></p>
+        <button class="menu-button"><img src="./resources/images/menu_black_24dp.svg" class="menu-icon"><img src="./resources/images/menu_open_black_24dp.svg" class="close-icon"></button>
+        <nav class="menu">
+            <div class="link-list">
+            <ul>
+                <li><a href="#about" class="menu-item">About</a></li>
+                <li><a href="#services" class="menu-item">Services</a></li>
+                <li><a href="#contact" class="menu-item">Contact</a></li>
+            </ul>
+            <h2>Portfolio</h2>
+            <p>These links will open in a new tab.</p>
+            <ul>
+                <li><a href="https://www.tabithariley.digital/va-homepage" target="_blank" class="menu-item">Company Homepage</a></li>
+                <li><a href="https://www.tabithariley.digital/club-site" target="_blank" class="menu-item">Responsive Club Site</a></li>
+                <li><a href="https://www.tabithariley.digital/tarot" target="_blank" class="menu-item">Tarot Reading Generator</a></li>
+            </ul>
             </div>
+        </nav>
+        <div class="grid">
+            <header>
+                <div class="angled-header">
+                    <svg viewBox="0 0 100 100" preserveAspectRatio="none">
+                        <polygon points="0,100 100,0 100,100" />
+                    </svg>
+                </div>
+                <div class="header-flex">
+                    <img id="logo" src="https://www.tabithariley.digital/portfolio-popup/TR%20Logo.png" alt="freelancer's logo">
+                    <h1>Tabitha Riley <span class="digital-title">Digital</span></h1>
+                </div>
+            </header>
+            <div class="overlay"></div>
+            <section class="image-cta">
+                <div class="cta">
+                    <h2>Need a website?</h2>
+                    <p class="desktop-only">Why use a builder and look like everyone else, when you can get an affordable custom site built just for you?</p>
+                    <a href="#contact"><button id="go-to-contact">Contact</button></a>
+                </div>
+            </section>
+            <img src="./resources/images/undraw_designer_life_re_6ywf.svg" id="banner-illustration" alt="">
+            <main id="about">
+                <img src="./resources/images/Tabitha.png">
+                <section>
+                    <h2>About Me</h2>
+                    <p>Hi! My name is Tabitha, and I am a Full-Stack Engineer in training.</p>
+                    <p>I've always been fascinated by websites and what they can (and can't) do. I started playing around with <abbr title="Hypertext Markup Language">HTML</abbr> when I was in my early teens on sites like Piczo. My HTML and <abbr title="Cascading Style Sheets">CSS</abbr> knowledge came in handy when I needed to make a website for my Acting degree, from which I graduated with First-Class Honours.</p>
+                    <p>After years of playing around with various website builders, and designing and managing my own forums at times, a certain global pandemic nudged me in the direction of becoming a Full-Stack Engineer. I started studying in earnest in mid-2021.</p>
+                    <p>At present I am a front-end designer and developer, with a firm grasp of HTML, CSS, and JavaScript. I also have experience with both <abbr title="Hypertext Preprocessor">PHP</abbr> and Wordpress.</p>
+                    <h3 class="desktop-only">Projects</h3>
+                    <p class="desktop-only">You can have a look at some of the projects I've completed so far during my training.</p>
+                    <ul class="projects desktop-only">
+                        <li><a href="https://www.tabithariley.digital/va-homepage" target="_blank">Company Homepage</a> - A generic homepage for a fictional company, including <abbr title="Calls to Action">CTAs</abbr> and a responsive layout.</li>
+                        <li><a href="https://www.tabithariley.digital/club-site" target="_blank">Responsive Club Site</a> - A homepage for a fictional drama club, with a responsive layout and a randomly generated quote on page load using JavaScript.</li>
+                        <li><a href="https://www.tabithariley.digital/tarot" target="_blank">Tarot Reading Generator</a> - A JavaScript-based random generator that can take user input.</li>
+                    </ul>
+                    <h3>Skills</h3>
+                    <p class="skill-icons">
+                        <abbr title="Hyper Text Markup Language"><i class="fab fa-html5 skill-icon"></i></abbr>
+                        <abbr title="Cascading Style Sheets"><i class="fab fa-css3-alt skill-icon"></i></abbr>
+                        <abbr title="JavaScript"><i class="fab fa-js-square skill-icon"></i></abbr>
+                        <abbr title="Hypertext Preprocessor"><i class="fab fa-php skill-icon"></i></abbr>
+                        <abbr title="Git"><i class="fab fa-git-alt skill-icon"></i></abbr>
+                        <abbr title="GitHub"><i class="fab fa-github skill-icon"></i></abbr>
+                        <abbr title="Wordpress"><i class="fab fa-wordpress skill-icon"></i></abbr>
+                    </p>
+                </section>
+            </main>
+            <div class="big-point">
+                <div class="overlay"></div>
+            </div>
+            <h2 class="big-text">You're unique, so your site should be too.</h2>
+            <section id="services">
+                <h2>What I can do for you</h2>
+                <div class="service-boxes">
+                    <div class="service-box">
+                        <p class="service-icon"><i class="fas fa-pencil-ruler"></i></p>
+                        <h3>Design</h3>
+                        <p>From layout to color schemes, let your site fit your brand perfectly in a way that you want rather than being dictated by themes. The sky is the limit.</p>
+                    </div>
+                    <div class="service-box">
+                        <p class="service-icon"><i class="fas fa-code"></i></p>
+                        <h3>Code</h3>
+                        <p>Building your site from the ground up means it can look exactly how you dreamt on every device and have the features you always wanted.</p>
+                    </div>
+                    <div class="service-box">
+                        <p class="service-icon"><i class="fas fa-search"></i></p>
+                        <h3><abbr title="Search Engine Optimization">SEO</abbr> Optimization</h3>
+                        <p>Make sure people can find you online by building your website with the important blocks for Search Engines to find you, like keywords and descriptions.</p>
+                    </div>
+                    <div class="service-box">
+                        <p class="service-icon"><i class="fas fa-universal-access"></i></p>
+                        <h3><abbr title="Web Content Accessibility Guidelines">WCAG</abbr> Compliance</h3>
+                        <p>Ensure your site is accessible to all under the Equality Act 2010 by building your site in compliance with the Web Content Accessibility Guidelines.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="big-image">
+            </section>
+            <section id="contact">
+                <h2>Contact</h2>
+                <p><i class="fas fa-phone"></i> +44 (0) 739 472 8972</p>
+                <p><i class="fas fa-envelope"></i> contact@tabithariley.digital</p>
+                <a href="mailto:contact@tabithariley.digital"><button id="email-now">E-Mail Now</button></a>
+            </section>
+            <footer>
+                <ul>
+                    <li><a href="./legal.html#termsconditions">Terms & Conditions</a></li>
+                    <li><a href="./legal.html#privacypolicy">Privacy Policy</a></li>
+                    <li><a href="./legal.html#disclaimer">Disclaimer</a></li>
+                    <li><a href="./legal.html#accessibility">Accessibility</a></li>
+                    <li>| <i class="fas fa-copyright"></i> Tabitha Riley 2021. All Rights Reserved.</li>
+                </ul>
+            </footer>
         </div>
-        <footer>
-            <p>© Tabitha Riley 2021</p>
-        </footer>
+        <script src="./resources/js/nav.js"></script>
     </body>
 </html>
-
