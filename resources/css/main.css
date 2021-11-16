@@ -33,6 +33,7 @@ header {
     grid-area: 1 / 1 / 3 / 13;
     z-index: 80;
 }
+
 .header-flex {
     width: 100%;
     display: flex;
@@ -414,6 +415,7 @@ h2.big-text {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-color: var(--orchid-crayola);
 }
 
 /* Contact */
