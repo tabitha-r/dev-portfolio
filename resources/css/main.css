@@ -5,8 +5,8 @@
 }
 
 :root {
-    --orchid-crayola: #F8A4D8;
-    --cornflower-blue: #6C63FF;
+    --orchid-crayola: #A20B68;
+    --cornflower-blue: #2F24FF;
     --shuttle-gray: rgb(90, 97, 112);
     --gull-gray: #9DA6B8;
     --alto: #DADFEA;
@@ -324,7 +324,7 @@ a {
 }
 
 .projects li {
-    color: var(--gull-gray);
+    color: var(--shuttle-gray);
     font-size: 1.2rem;
 }
 
