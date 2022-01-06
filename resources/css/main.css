@@ -374,6 +374,10 @@ a {
     color: #21759b;
 }
 
+.skill-icon.fa-redux {
+    color: #764abc;
+}
+
 /* Big Point */
 .big-point {
     grid-area: 5 / 1 / 6 / 13;
