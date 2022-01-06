@@ -338,6 +338,42 @@ a {
     letter-spacing: 0.8rem;
 }
 
+.skill-icon.fa-html5 {
+    color: #e34c26;
+}
+
+.skill-icon.fa-css3-alt {
+    color: #264de4;
+}
+
+.skill-icon.fa-js-square {
+    color: #F0DB4F;
+}
+
+.skill-icon.fa-node {
+    color: #68a063;
+}
+
+.skill-icon.fa-react {
+    color: #61DBFB;
+}
+
+.skill-icon.fa-php {
+    color: #787CB5;
+}
+
+.skill-icon.fa-git-alt {
+    color: 	#f34f29;
+}
+
+.skill-icon.fa-github {
+    color: #333;
+}
+
+.skill-icon.fa-wordpress {
+    color: #21759b;
+}
+
 /* Big Point */
 .big-point {
     grid-area: 5 / 1 / 6 / 13;
